@@ -4,15 +4,15 @@ import { motion } from 'framer-motion'
 
 const projects = [
   {
-    title: 'Project 1',
-    description: 'Description of project 1',
-    tech: ['React', 'Node.js', 'MongoDB'],
+    title: 'My Portfolio',
+    description: 'My Portfolio showcases my web development projects with a modern and functional design.',
+    tech: ['Next.js', 'TypeScript', 'Tailwind'],
     image: '/project1.png',
-    link: '#'
+    link: '/'
   },
   {
-    title: 'Project 2',
-    description: 'Description of project 2',
+    title: 'Onda Dura',
+    description: 'Project developed voluntarily for the Onda Dura church.',
     tech: ['Next.js', 'TypeScript', 'Tailwind'],
     image: '/project2.png',
     link: '#'

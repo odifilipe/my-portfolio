@@ -9,11 +9,11 @@ const skills = [
   },
   {
     category: 'Backend',
-    items: ['Node.js', 'Express', 'Python', 'MongoDB', 'PostgreSQL']
+    items: ['Node.js', 'Express', 'PHP', 'MongoDB', 'PostgreSQL']
   },
   {
     category: 'Tools & Others',
-    items: ['Git', 'Docker', 'AWS', 'Linux', 'CI/CD']
+    items: ['Git', 'Jira', 'Vercel', 'Figma']
   }
 ]
 

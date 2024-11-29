@@ -27,9 +27,9 @@ export function AboutSection() {
           <div className="space-y-4">
             <h3 className="text-xl font-semibold">Quick Facts</h3>
             <ul className="space-y-2">
-              <li>🎓 Computer Science Graduate</li>
-              <li>💼 X years of professional experience</li>
-              <li>🌍 Based in [Your Location]</li>
+              <li>🎓 Systems Analysis and Development Student</li>
+              <li>💼 10 years of professional experience</li>
+              <li>🌍 Based in Brazil</li>
               <li>✨ Always learning new technologies</li>
             </ul>
           </div>
