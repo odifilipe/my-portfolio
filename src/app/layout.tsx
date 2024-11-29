@@ -5,7 +5,7 @@ import "./globals.css"
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: "Your Name - Portfolio",
+  title: "Odi Filipe Barros Brisola - Portfolio",
   description: "Full Stack Developer Portfolio showcasing my projects and skills",
 }
 
@@ -19,7 +19,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm border-b">
           <nav className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
-            <a href="#" className="text-xl font-bold">Your Name</a>
+            <a href="#" className="text-xl font-bold">Odi Filipe Barros Brisola</a>
             <ul className="hidden md:flex items-center gap-8">
               <li><a href="#" className="hover:text-primary">Home</a></li>
               <li><a href="#about" className="hover:text-primary">About</a></li>

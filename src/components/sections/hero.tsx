@@ -12,7 +12,7 @@ export function HeroSection() {
         className="text-center"
       >
         <h1 className="text-4xl md:text-6xl font-bold mb-6">
-          Hi, I'm <span className="text-primary">Your Name</span>
+          Hi, I'm <span className="text-primary">Odi Filipe</span>
         </h1>
         <p className="text-xl md:text-2xl text-muted-foreground mb-8">
           Full Stack Developer | Creative Problem Solver
