@@ -23,7 +23,7 @@ const projects = [
 
 export function ProjectsSection() {
   return (
-    <section className="w-full min-h-screen py-20 px-4">
+    <section id='projects' className="w-full min-h-screen py-20 px-4">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">My Projects</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

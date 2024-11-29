@@ -3,6 +3,13 @@
 import { motion } from 'framer-motion'
 
 export function HeroSection() {
+  const handleScroll = (id: string) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth'});
+    }
+  }
+
   return (
     <section className="w-full min-h-screen flex flex-col items-center justify-center px-4">
       <motion.div
@@ -18,10 +25,10 @@ export function HeroSection() {
           Full Stack Developer | Creative Problem Solver
         </p>
         <div className="flex gap-4 justify-center">
-          <button className="px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90">
+          <button className="px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90" onClick={() => handleScroll('projects')}>
             View Projects
           </button>
-          <button className="px-6 py-3 border border-input bg-background hover:bg-accent hover:text-accent-foreground rounded-lg">
+          <button className="px-6 py-3 border border-input bg-background hover:bg-accent hover:text-accent-foreground rounded-lg" onClick={() => handleScroll('contact')}>
             Contact Me
           </button>
         </div>
