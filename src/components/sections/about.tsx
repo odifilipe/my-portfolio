@@ -16,11 +16,11 @@ export function AboutSection() {
         <div className="grid md:grid-cols-2 gap-8">
           <div className="space-y-4">
             <p className="text-muted-foreground">
-              I'm a passionate developer with experience in building modern web applications.
+              I&apos;m a passionate developer with experience in building modern web applications.
               I love creating elegant solutions to complex problems.
             </p>
             <p className="text-muted-foreground">
-              When I'm not coding, you can find me exploring new technologies,
+              When I&apos;m not coding, you can find me exploring new technologies,
               contributing to open source, or working on side projects.
             </p>
           </div>
