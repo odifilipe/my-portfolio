@@ -1,20 +1,21 @@
 'use client'
 
-import { motion } from 'framer-motion'
+import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 const projects = [
   {
     title: 'My Portfolio',
     description: 'My Portfolio showcases my web development projects with a modern and functional design.',
     tech: ['Next.js', 'TypeScript', 'Tailwind'],
-    image: '/project1.png',
+    image: '/of-portfolio.png',
     link: '/'
   },
   {
     title: 'Onda Dura',
     description: 'Project developed voluntarily for the Onda Dura church.',
     tech: ['Next.js', 'TypeScript', 'Tailwind'],
-    image: '/project2.png',
+    image: '/onda-dura.png',
     link: '#'
   },
   // Add more projects as needed
@@ -38,6 +39,7 @@ export function ProjectsSection() {
               <div className="relative h-48">
                 <div className="absolute inset-0 bg-muted" />
                 {/* Add project image here */}
+                <Image src={project.image} alt={project.title} fill className="object-cover" />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
